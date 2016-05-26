@@ -37,7 +37,6 @@ private void FindLamp()
         if (joinResult.Status == AllJoynStatus.Ok)
         {
             this._lamp = joinResult.Consumer;
-            txtLamp.Text = "LIFX Color 1000 BR30: найдена";
         };
     };
     watcher.Start();
